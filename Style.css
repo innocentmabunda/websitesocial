@@ -1,0 +1,339 @@
+
+.div{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body1 {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+background: url(img/How\ To\ Approach\ A\ Client\ For\ Website\ Design.mp4);
+
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+  margin: 20px 20px;
+  display: grid;
+  padding: 0 280px;
+ white-space: nowrap;
+  grid-template-columns: 1fr  1fr;
+  width: 70%;
+  -ms-grid-column-align: center;
+ 
+  
+}
+
+.grid div:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+  grid-template-rows: ;
+}
+
+.grid div:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  background-color: #d60505;
+  width: 100%;
+  
+}
+.search {
+    float: right;
+}
+
+.searchtext {
+}
+
+.navbar-links {
+    text-decoration-thickness: 1000pt;
+  color: white;
+  text-decoration-style: none;
+  display: inline-flex;
+  text-sty
+}
+.navbar-links li {
+  display: inline-flex;
+  white-space: nowrap;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+}
+.logo {
+  color: black;
+}
+
+#more {
+  display: none;
+}
+p {
+  text-align: justify;
+  text-emphasis: none;
+  text-justify: auto;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  border-radius: 10px;
+  width: 20%;
+  margin: 0 40%;
+  background-color: #d60505;
+  color: white;
+  padding: 10px;
+  background-image: url(img/images.jfif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+.form1 {
+  width: 45%;
+  margin:0 400px;
+
+}
+
+.form3 {
+ 
+}
+.button44 {
+  color: rgb(5, 253, 79);
+}
+.submit3 {
+  color: blue;
+}
+
+/* Full-width inputs */
+
+input[type="password"] {
+  width: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+span {
+  color: rgba(156, 155, 155, 0.897);
+}
+.span1 {
+  color: greenyellow;
+}
+.search3 {
+  margin-right: 40px;
+}
+.summit1 {
+  background-color: #00003e;
+  color: white;
+
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 20px;
+}
+.button3 {
+  background-color: #00003e;
+  color: white;
+
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  height: 20px;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #00003e;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding-left: 0 50px;
+  background-color: #080808;
+  color: white;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* The "Forgot password" text */
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: none;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100px;
+  }
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+.row6 {
+  float: right;
+  padding: 0 20px;
+}
+
+/* Set a style for all buttons */
+
+button:hover {
+  opacity: 2;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+  }
+}
+.row {
+  background-color: #d60505;
+}
+.column {
+  float: left;
+
+  padding: 0 20px;
+
+  color: white;
+}
+
+span3 {
+  color: rgb(5, 253, 79);
+}
+.column2 {
+  float: right;
+  padding: 40px;
+}
+.column4 {
+  display: inline;
+}
+.column5 {
+  display: block;
+  float: right;
+}
+.loginbtn1 {
+  margin: 20px;
+  float: right;
+}
+.piggy {
+  display: inline-block;
+  float: right;
+  margin-left: 240px;
+  padding-top: 20px;
+}
+.h4 {
+  color: white;
+}
+.money {
+  float: right;
+  margin-left: 200px;
+  padding: 20px;
+}
+.button1 {
+  float: right;
+}
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: black;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 30%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 10%;
+  }
+}
+.row1 {
+  background-color: white;
+}
+.row2 {
+  background-color: lightgrey;
+}
+.row3 {
+  background-color: white;
+}
+.row4 {
+  background-color: lightgrey;
+}
+.row5 {
+  background-color: white;
+}
+.row6 {
+  background-color: lightgrey;
+}
+.title8 {
+  padding: 0 10px;
+}
+.span5 {
+  color: red;
+}
